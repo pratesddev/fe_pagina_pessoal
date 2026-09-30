@@ -32,7 +32,7 @@ Abaixo segue um print do projeto concluído:
 
 ![Preview do projeto](./assets/preview.png)
 
-🔗 **Ao vivo:** [paginapessoal](https://pratesddev.github.io/fe_pagina_pessoal/
+🔗 **Ao vivo:** [paginapessoal](https://pratesddev.github.io/fe_pagina_pessoal/)
 
 ---
 
