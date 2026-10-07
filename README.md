@@ -36,18 +36,20 @@ Abaixo segue um print do projeto concluído:
 
 ---
 
-## ✨ Funcionalidades
+## ✨ Por que cada TAG semântica foi escolhida
 
-- ✅ Utilização de html semântico
-- ✅ Texto alternativo para imagens que não carregam
-- ✅ HTML válido no validador do W3C
+- header: Tag para identificação do caeçalho da página.
+- main: Tag que identifica a porção principal do site, onde o conteúdo é apresentado.
+- section: Tag para separar os conteúdos por temas dentro do conteúdo principal do site.
+- figure: Tag para identificação de imagens com possibilidade de inserir legendas e maior suporte a leitores de tela
+- footer: Tag para identificar o rodapé da página
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
 
 | Tecnologia | Para que serve no projeto |
-|---|---|
+| --- | --- |
 | **HTML5** | Estrutura e semântica das páginas |
 | **Git & GitHub** | Versionamento e hospedagem do código |
 
@@ -89,15 +91,6 @@ cd fe_pagina_pessoal
 
 Pronto! Se deu tudo certo, o projeto já está rodando na sua máquina. 🎉
 
----
-
-## 🗺️ Roadmap
-
-- [ ] Ideia e planejamento
-- [ ] Versão inicial
-- [ ] Validação no W3C
-
----
 
 ## 🤝 Contribuindo
 
