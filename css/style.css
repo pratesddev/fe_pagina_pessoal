@@ -15,7 +15,6 @@ body {
 
 header {
   padding: 2rem 0;
-  padding-top: 4rem;
   border-bottom: 2px solid #5a7481;
   margin-bottom: 2rem;
 }
@@ -24,6 +23,8 @@ header h1 {
   font-size: 4rem;
   font-weight: bolder;
   margin-bottom: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 #cabecalho p {
@@ -32,6 +33,7 @@ header h1 {
   max-width: 50%;
   line-height: 1.5;
   color: #194571;
+  padding-left: 0.5rem;
 }
 
 #cabecalho span {
@@ -39,12 +41,14 @@ header h1 {
   color: gray;
   margin-bottom: 1.5rem;
   display: block;
+  padding-left: 0.5rem;
 }
 
 #contato {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem 1.5rem;
+  padding: 0 0.5rem;
 }
 
 #contato a {
@@ -62,17 +66,28 @@ header h1 {
 main {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 5rem;
+  gap: 3rem;
 }
 
-aside {
-  padding: 0 1rem;
+@media (max-width: 1000px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  main {
+    display: block;
+  }
 }
 
 h2 {
   font-size: 2rem;
   line-height: 3rem;
   border-bottom: 2px solid #cbd5da;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 #tecnologias ul {
@@ -80,7 +95,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  padding: 1rem 0;
+  padding: 1rem 0.5rem;
 }
 
 #tecnologias ul li {
@@ -89,4 +104,99 @@ h2 {
   border-radius: 3px;
   font-weight: 600;
   color: #0d2f52;
+}
+
+#formacao div {
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+}
+
+#formacao .formacao-item p {
+  font-size: 1rem;
+}
+
+#formacao .formacao-item span {
+  font-size: 0.750rem;
+  color: #194571;
+  font-weight: 600;
+}
+
+#certificacoes ul {
+  list-style-position: inside;
+  list-style-type: square;
+  margin-bottom: 1rem;
+}
+
+#certificacoes ul li{
+  padding: 0.25rem 0.5rem;
+}
+
+#idiomas div {
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+}
+
+#idiomas p {
+  font-size: 1rem;
+  line-height: 1.1;
+}
+
+#idiomas span {
+  font-size: 0.750rem;
+  color: #194571;
+  font-weight: 600;
+}
+
+#resumo {
+  margin-bottom: 1rem;
+}
+
+#resumo p {
+  padding: 0.25rem 0.5rem;
+  line-height: 1.25;
+}
+
+#experiencia .experiencia-item {
+  padding: 0.5rem;
+}
+
+.experiencia-item h3 {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #194571;
+  font-size: 1.25rem;
+}
+
+.experiencia-item p {
+  font-weight: 600;
+  padding-top: 0.25rem;
+}
+
+.experiencia-item span {
+  font-size: 0.875rem;
+}
+
+.experiencia-item ul {
+  list-style-position: inside;
+  list-style-type: square;
+  margin-top: 0.5rem;
+}
+
+#anterior h3 {
+  font-size: 1.125rem;
+  color: #194571;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#anterior .anterior-item {
+  padding: 0.5rem 0.5rem 0 0;
+}
+
+.anterior-item p {
+  font-weight: 500;
+}
+
+.anterior-item span {
+  font-size: 0.875rem;
 }
